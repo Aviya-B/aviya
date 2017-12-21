@@ -1,0 +1,60 @@
+[debug] [2017-12-05T15:33:51.888Z] ----------------------------------------------------------------------
+[debug] [2017-12-05T15:33:51.905Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-12-05T15:33:51.905Z] CLI Version:   3.16.0
+[debug] [2017-12-05T15:33:51.905Z] Platform:      win32
+[debug] [2017-12-05T15:33:51.905Z] Node Version:  v8.9.1
+[debug] [2017-12-05T15:33:51.906Z] Time:          Tue Dec 05 2017 17:33:51 GMT+0200 (שעון רגיל ירושלים)
+[debug] [2017-12-05T15:33:51.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-05T15:33:51.920Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-12-05T15:33:51.920Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Aviya\a
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-12-05T15:36:19.764Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-05T15:36:19.764Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/dvYuyy588EN2V0IAGLKOUUlsm2lA8blAivZctJwvxSSKI96xTs8Lk1XWi-ftxAXR',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Dec 05 2017 17:36:19 GMT+0200 (שעון רגיל ירושלים)
+[debug] [2017-12-05T15:36:20.317Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-05T15:36:20.399Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Dec 05 2017 17:36:20 GMT+0200 (שעון רגיל ירושלים)
+[debug] [2017-12-05T15:36:21.954Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2017-12-05T15:36:42.409Z] Error: EISDIR: illegal operation on a directory, open 'C:\Users\Aviya\a\dist'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1291:33)
+    at Config.writeProjectFile (C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:170:6)
+    at C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\database.js:27:19
+    at tryCatch (C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:525:12)
+    at invokeCallback (C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:538:13)
+    at C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:606:14
+    at flush (C:\Users\Aviya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:2415:5)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.

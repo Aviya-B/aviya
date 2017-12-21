@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    height: 20%;
+    background-color: pink;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+.title{
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    font-size: 100px;
+    color: hotpink;
+    position: absolute;
+    left: 40%;
+}
+.des{
+    font-family: 'Gill Sans';
+    font-size: 40px;
+    color:purple;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+
+}
+.logo{
+    width:10%;
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    border-radius: 45%;
+}
+.btn1{
+
+    width: 90px;
+    height: 30px;
+   border-color: purple;
+   font-family: 'Franklin Gothic Medium';
+   font-size: 15px;
+  
+
+}
+.nav{
+    position: absolute;
+    top:75%;
+    left: 80%;
+}

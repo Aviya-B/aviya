@@ -1,0 +1,50 @@
+.main{
+    width: 70%;
+    height: 80%;
+    background-color: palevioletred;
+    position: absolute;
+    top:20%;
+    left: 0%;
+}
+.ad{
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.link{
+    font-family: Arial;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#d{
+    font-family: Arial;
+    font-size: 20px;
+}
+.box{
+    font-family: Arial;
+    font-size: 27px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+   border-color: purple;
+   font-family: 'Franklin Gothic Medium';
+   font-size: 20px;
+
+}
+.im{
+     width:30%;
+    height: 60%;
+    position: absolute;
+    left: 60%;
+    top: 7%;
+    border-radius: 10%;
+}
